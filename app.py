@@ -232,6 +232,3 @@ class Student:
 
 s1 = Student("Awais", 20)
 s1.show()
-
-
-
