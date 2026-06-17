@@ -65,3 +65,24 @@ while True:
         break
     else:
         print("Try again!")
+
+
+# ...................................................
+
+num = int(input("enter a number: "))
+for number in range(1, 21):
+        print(f"{number} * {num} = {number*num}")
+
+# ............Square & Cube Program .............
+nu = int(input("enter a number: "))
+square = nu ** 2
+cube = nu ** 3
+print("square =", square)
+print("cube =", cube)
+
+# .................... sum of list  ............
+
+numbers = [10, 20, 30, 40, 50]
+total = sum(numbers)
+print("Sum =", total)
+
