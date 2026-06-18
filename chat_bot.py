@@ -1,21 +1,21 @@
-# print("hey i am your mini project!")
-# print("type 'bye' to exit\n")
-#
-# while True:
-#     user = input("you : ")
-#     if user == "hello":
-#         print("welcome back")
-#     elif user == "how are you":
-#         print("i am fine what about you! ")
-#     elif user == "what is python!":
-#         print("python is a programming language.")
-#     elif user == "help":
-#         print("this is a help message")
-#     elif user == "bye":
-#         print("bye, good bye take care Awais")
-#         break
-#     else:
-#         print("i dont understand it !")
+print("hey i am your mini project!")
+print("type 'bye' to exit\n")
+
+while True:
+    user = input("you : ")
+    if user == "hello":
+        print("welcome back")
+    elif user == "how are you":
+        print("i am fine what about you! ")
+    elif user == "what is python!":
+        print("python is a programming language.")
+    elif user == "help":
+        print("this is a help message")
+    elif user == "bye":
+        print("bye, good bye take care Awais")
+        break
+    else:
+        print("i dont understand it !")
 
 
 

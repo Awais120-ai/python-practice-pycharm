@@ -8,10 +8,15 @@ print("guess the number between 1 and 20")
 print("you have only five attempts")
 
 while attempt > 0:
-    guess = int(input("enter your Guess: "))
+    try:
+       guess = int(input("enter your Guess: "))
+    except ValueError:
+       print("please enter a number")
+       continue
 
     if guess == secret_number:
       print("your guess are right")
+      break
     elif guess > secret_number:
       print("you are wrong and your number is high ")
     else:
